@@ -9,8 +9,8 @@ package daw;
  */
 public class Libreria {
 
-    int isbn;
-    String nombre;
+    private int isbn;
+    private String nombre;
 
     public Libreria() {
     }
@@ -18,6 +18,22 @@ public class Libreria {
     public Libreria(int isbn, String nombre) {
         this.isbn = isbn;
         this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
     }
 
     
