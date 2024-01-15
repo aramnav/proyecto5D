@@ -12,6 +12,14 @@ public class Libreria {
     int isbn;
     String nombre;
 
+    public Libreria() {
+    }
+
+    public Libreria(int isbn, String nombre) {
+        this.isbn = isbn;
+        this.nombre = nombre;
+    }
+
     
 
     
