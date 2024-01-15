@@ -36,6 +36,16 @@ public class Libreria {
         this.isbn = isbn;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Libreria{");
+        sb.append("isbn=").append(isbn);
+        sb.append(", nombre=").append(nombre);
+        sb.append('}');
+        return sb.toString();
+    }
+
     
 
     
